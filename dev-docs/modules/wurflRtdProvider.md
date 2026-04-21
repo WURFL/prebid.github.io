@@ -90,7 +90,7 @@ While the WURFL RTD module enriches the OpenRTB 2.0 payload, SSP adapters must a
 ### Integration Scenarios
 
 | SSP Adapter Status | Required Adapter Changes | Required Server Changes |
-|-------------------|--------------------------|-------------------------|
+| ------------------ | ------------------------ | ----------------------- |
 | Already passing ORTB2 device to server | No changes required | Update backend logic to utilize device data |
 | Not currently passing device data | Update adapter to read `device` and/or `device.ext.wurfl` and pass to endpoint | Update backend logic to utilize device data |
 | No Bidder Adapter exists | Implement Prebid.js adapter to read and pass `device` and/or `device.ext.wurfl` | Implement endpoint logic to read and utilize data |

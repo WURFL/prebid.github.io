@@ -124,7 +124,7 @@ pbjs.setConfig({
 {: .table .table-bordered .table-striped }
 
 | Name | Type | Description | Default |
-|------|------|-------------|---------|
+| ---- | ---- | ----------- | ------- |
 | `name` | String | Real time data module name | Always 'wurfl' |
 | `params` | Object | Configuration parameters | |
 | `params.altHost` | String | Alternate host to connect to WURFL.js | |

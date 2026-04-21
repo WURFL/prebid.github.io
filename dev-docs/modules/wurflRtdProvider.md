@@ -266,6 +266,6 @@ The WURFL RTD module processes minimal personal data under legitimate interest f
 
 * Device detection uses only HTTP headers (User-Agent, Client Hints)
 * No user tracking or cross-site identification
-* IP addresses processed transiently for service delivery only
+* IP addresses are retained for up to 36 months for fraud detection and invalid traffic prevention, then permanently redacted. They are not used for user identification or behavioral profiling.
 
 For questions or support, visit [ScientiaMobile Support](https://support.scientiamobile.com).
